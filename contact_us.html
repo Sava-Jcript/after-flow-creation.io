@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo">
+          <a href="index.html"
+            ><img class="logo" src="pictures/logo.png" alt="logo"
+          /></a>
+        </div>
+
+        <div id="menu">
+          <a href="services.html">Our work</a>
+          <a href="our_team.html">Our team</a>
+          <a href="contact_us.html">Contact us</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="formcontainer">
+        <div>
+          <h1>Contact us</h1>
+          <div class="flex_contact">
+            <img src="pictures/location.png" alt="location" />
+            <p>Svanholmsvej 12A, 1905 Frederiksberg</p>
+          </div>
+          <br />
+          <div class="flex_contact">
+            <img src="pictures/phone.png" alt="phone" />
+            <p>+45 60 55 15 81</p>
+          </div>
+          <br />
+          <div class="flex_contact">
+            <img src="pictures/mail.png" alt="mail" />
+            <p>hello@afterflow.dk</p>
+          </div>
+        </div>
+
+        <form action="contact-form-process.php">
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name and surname"
+          />
+          <input
+            name="company-name"
+            type="text"
+            class="feedback-input"
+            placeholder="Company name (optional)"
+          />
+          <input
+            name="phone"
+            type="text"
+            class="feedback-input"
+            placeholder="Phone number (optional)"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Comment"
+          ></textarea>
+          <input type="submit" value="Send" />
+        </form>
+      </div>
+     
+    </main>
+
+    <footer>
+      <div class="footerlists">
+        <div class="footerlist">
+          <h3>Services</h3>
+          <a href="#">Sewing</a>
+          <a href="#">Repairing</a>
+          <a href="#">Re-design</a>
+        </div>
+        <div class="footerlist">
+          <h3>About us</h3>
+          <a href="aboutus.html">Our story</a>
+          <a href="team.html">Our team</a>
+        </div>
+        <div class="footerlist">
+          <h3>Support</h3>
+          <a href="contact_us.html">Contact us</a>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+
+      <div class="footerinfo">
+        <p>powered by</p>
+        <img src="pictures/innofounder.svg" alt="innofounder" />
+      </div>
+
+      <div class="footerinfo">
+        <img class="logo" src="pictures/logo.png" alt="logo" />
+        <div class="flex">
+          <img src="pictures/phone_icon.png" alt="phone" />
+          <p>+45 60 55 15 81</p>
+        </div>
+        <div class="flex">
+          <a href="mailto:hello@afterflow.dk" target="”_blank”"
+            ><img src="pictures/mail_icon.png" alt="phone"
+          /></a>
+          <p>hello@afterflow.dk</p>
+        </div>
+        <div class="flex">
+          <a
+            href="https://www.instagram.com/afterflowcreation/"
+            target="”_blank”"
+            ><img src="pictures/instagram_icon.png" alt="phone"
+          /></a>
+          <p>@afterflowcreation</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
